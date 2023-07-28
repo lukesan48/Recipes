@@ -1,0 +1,4 @@
+html {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
+}
