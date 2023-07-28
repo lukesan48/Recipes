@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="index.css">
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>homepage</title>
+        <title>Luke's Food Hall of Fame</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="left">
-            <div class="topLeft">
+        <div id="left">
+            <div id="topLeft">
                 <img id="pulpo" src="https://www.seriouseats.com/thmb/3GgyYyafv-gQEmGL9x28dbZOUPE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__07__20190620-grilled-octopus-vicky-wasik-8-ea55a14037934188b81d1224ba63bca1.jpg">
-                <img class = "frame" src = "resources/frame.png">
+                <img id = "frameTopLeft" src = "resources/frame.png">
                 <a id = "topLeftLink" href = "./recipes/pulpo.html" target = "_blank"">
                     <div id = "topLeftTitle">Grilled Pulpo with Chili-Herb Oil</div>
                     <p id = "topLeftDescription">Succulent octopus tentacles kissed by the grill, adorned with a smoky chili-herb oil, perfect for tapas or a centerpiece dish.</p>
                 </a>
             </div>
-            <div class = "bottomLeft"> 
+            <div id = "bottomLeft"> 
                 <img id = "dinuguan" src = "https://1.bp.blogspot.com/-_lnJ9Il1FrM/XSJ43Bqm1sI/AAAAAAAATYo/egMHLhIiHoAxdnpLj_aAHOf30ESk396-wCLcBGAs/s1600/dinuguan.jpg">
-                <img class = "frame" src ="resources/frame.png">
+                <img id = "frameBottomLeft" src ="resources/frame.png">
                 <a id = "bottomLeftLink" href = "./recipes/dinuguan.html" target = "_blank">
                     <div id = "bottomLeftTitle">Pork Dinuguan</div>
                     <p id = "bottomLeftDescription">A savory and bold meat stew with tender pork belly and green chilis; perfectly paired with rice.</p>
@@ -29,30 +30,38 @@
         <div id = "right">
             <div id = "topRight">
                 <img id = "alambre" src = "https://inmamamaggieskitchen.com/wp-content/uploads/2018/03/Alambres-de-Res-topped-with-cilantro.jpg">
-                <img id = "topRightFrame" src = "resources/coolFrame2.png">
-                <a id = "topRightOverlay" href = "padThai.html" target = "_blank">
-                    <div id = "topRightHoverTitle">Pad Thai</div>
-                    <p id = "topRightHoverDescription">Pad Thai is stir-fry dish made with rice noodles, shrimp, chicken, or tofu, peanuts, a scrambled egg and bean sprouts. The ingredients are sautéed together in a wok and tossed in a delicious pad thai sauce.</p>
+                <img id = "frameTopRight" src = "resources/frame.png">
+                <a id = "topRightLink" href = "./recipes/alambre.html" target = "_blank">
+                    <div id = "topRightTitle">Alambre de Res</div>
+                    <p id = "topRightDescription">Indulge in the sizzling Mexican delight of Alambre de Res: Grilled beef, bacon, and veggies topped with melted cheese; an easy-to-make street food.</p>
                 </a>
             </div>
             <div id = "bottomRight">
-                <img id = "bottomRightRecipe" src = "resources/firecrackeMeatballs.jpg">
-                <img id = "bottomRightFrame" src = "resources/coolFrame2.png">
-                <a id = "bottomRightOverlay" href = "firecrackerMeatballs.html" target = "_blank">
-                    <div id = "bottomRightHoverTitle">Firecracker Meatballs</div>
-                    <p id = "bottomRightHoverDescription">This recipe is here to blow up everything you think you know about meatballs. All dramatics aside, these meatballs are truly game-changing thanks to a certain onomatopoeic sauce.</p>
+                <img id = "dandannoodles" src = "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-12.jpg">
+                <img id = "frameBottomRight" src = "resources/frame.png">
+                <a id = "bottomRightLink" href = "./recipes/dandannoodles.html" target = "_blank">
+                    <div id = "bottomRightTitle">Dan Dan Noodles</div>
+                    <p id = "bottomRightDescription">Soft wheat noodles smothered in a spicy, sesame chili sauce, topped with crispy ground pork, peanuts, and a moutb-numbing burst of flavor.</p>
                 </a>
             </div>
         </div>
         
         
-        <h1>Luke's Food Hall of Fame</h1>
-        <ul>
-            <li><a href="./recipes/pulpo.html">Grilled Pulpo with Chili-Herb Oil</a></li>
-            <li><a href="./recipes/dandannoodles.html">Dan Dan Noodles</a></li>
-            <li><a href="./recipes/alambre.html">Alambre de Res</a></li>
-            <li><a href="./recipes/dinuguan.html">Dinuguan</a></li>
-        </ul>
+        <div id = "middle">
+            <div id = "header">
+                <h1 id = "title"> Luke's Food Hall of Fame </h1>
+                <img id = "underline" src = "resources/underline.png">            
+            </div>
+            <div id = "Container">
+                <img id = "lukeimage" src = "resources/luke.JPG">
+            </div>
+            <div id = "descriptionContainer">
+                <div id = "projectBy">
+                    Recipe project by: Luke Sandoval
+                    <p>~A compilation of some of my favorite dishes along with recipes for others to enjoy~</p>
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
