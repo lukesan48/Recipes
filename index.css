@@ -151,7 +151,7 @@ body    {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: "Architects_Daughter";
+    font-family: "Montserrat-Light";
     opacity: 0;
     transition: 0.75s;
     pointer-events: auto;
@@ -237,6 +237,6 @@ body    {
 }
 
 @font-face {
-    font-family: "Architects_Daughter";
-    src: url(resources/architectsDaughter.ttf);
+    font-family: "Montserrat-Light";
+    src: url(resources/Montserrat-Light.otf);
 }
